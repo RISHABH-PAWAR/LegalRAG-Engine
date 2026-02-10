@@ -75,15 +75,18 @@ Installation (Recommended)
 git clone https://github.com/RISHABH-PAWAR/RAG-based-Legal-Assistant.git
 cd RAG-based-Legal-Assistant
 uv sync
+
 🔐 Environment Variables
 Create a .env file:
 
 COHERE_API_KEY=your_api_key
 OPENAI_API_KEY=optional
+
 ▶️ Run the App
 uv run app.py
 Ask legal questions in the terminal.
 Type exit to quit.
+```
 
 🧪 Evaluation
 Retrieval and generation quality are evaluated using RAGAS.
@@ -92,4 +95,5 @@ Scores and datasets are available in RAGAS-dataset/.
 👤 Author
 Rishabh Pawar
 🔗 https://github.com/RISHABH-PAWAR
+
 
