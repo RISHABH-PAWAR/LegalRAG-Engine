@@ -48,6 +48,7 @@ This project fixes that.
 
 ## 📂 Project Structure
 
+```text
 RAG-based-Legal-Assistant/
 ├── data/                     # Legal PDF documents
 ├── modules/                  # Core RAG pipeline logic
@@ -62,6 +63,8 @@ RAG-based-Legal-Assistant/
 ├── RAGAS-dataset/            # Evaluation datasets & scores
 ├── app.py                    # Application entry point
 └── README.md
+```
+
 
 
 
