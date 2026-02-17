@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LexRAG — Legal Research Intelligence</title>
+
+    <!-- Fonts: Syne (headings/UI), Crimson Pro (body text), JetBrains Mono (code/labels) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,400&family=JetBrains+Mono:wght@300;400;500&family=Syne:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      /* Hard reset */
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+      html, body, #root       { height: 100%; }
+
+      body {
+        background:              #09090b;
+        color:                   #e4e4e7;
+        font-family:             'Crimson Pro', Georgia, serif;
+        -webkit-font-smoothing:  antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      /* Thin, unobtrusive scrollbar */
+      ::-webkit-scrollbar       { width: 3px; }
+      ::-webkit-scrollbar-track { background: transparent; }
+      ::-webkit-scrollbar-thumb { background: rgba(161,161,170,0.18); border-radius: 2px; }
+
+      /* Global keyframes used by multiple components */
+      @keyframes fadeUp {
+        from { opacity: 0; transform: translateY(10px); }
+        to   { opacity: 1; transform: translateY(0);    }
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50%       { opacity: 0; }
+      }
+      @keyframes shimmer {
+        0%   { background-position: -400% 0; }
+        100% { background-position:  400% 0; }
+      }
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
