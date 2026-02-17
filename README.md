@@ -197,6 +197,7 @@ The application uses an advanced RAG pipeline with several sophisticated compone
 🧪 **Evaluation**
 
 -Retrieval and generation quality are evaluated using RAGAS.
+
 -Scores and datasets are available in RAGAS-dataset/.
 
 👤 Author
