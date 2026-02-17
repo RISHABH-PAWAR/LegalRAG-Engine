@@ -2,7 +2,7 @@
 import os
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters.character import RecursiveCharacterTextSplitter
-from langchain.schema import Document
+from langchain_core.documents import Document
 from typing import List
 
 def load_chunk_store(data_path: str) -> List[Document]:

@@ -1,7 +1,7 @@
 ## import dependencies
 from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import JsonOutputParser
-from langchain.schema import Document
+from langchain_core.documents import Document
 from pydantic import BaseModel, Field
 from typing import Dict, List
 

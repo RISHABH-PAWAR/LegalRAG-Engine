@@ -1,10 +1,10 @@
 ## import dependencies
-from langchain.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import JsonOutputParser
 from pydantic import BaseModel, Field
 from modules.conversation_history import ConversationSummaryMemory
 from typing import List
-from langchain.schema import Document
+from langchain_core.documents import Document
 from modules.rrf_score import RRF
 
 ## multi query prompt
